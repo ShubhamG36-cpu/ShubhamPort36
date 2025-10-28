@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Shubham Guleria — IT Engineer</title>
+  <meta name="description" content="Shubham Guleria | IT Engineer — system optimization, network security, customer-focused technical solutions."/>
+  <style>
+    :root{
+      --bg:#0f1724; --card:#0b1220; --muted:#98a0b3; --accent:#1fb6ff; --glass: rgba(255,255,255,0.03);
+      --radius:12px; --max:1100px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      background: linear-gradient(180deg,#071023 0%, #071825 60%);
+      color:#e6eef8;
+      line-height:1.55;
+    }
+    .wrap{max-width:var(--max);margin:36px auto;padding:28px;}
+    header{display:flex;justify-content:space-between;align-items:center;gap:16px}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{
+      width:56px;height:56px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#6de0ff);
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:#06202b;
+      font-family:monospace;
+    }
+    nav a{color:var(--muted);text-decoration:none;margin-left:18px;font-weight:600}
+    nav a:hover{color:var(--accent)}
+    .hero{display:grid;grid-template-columns:1fr 360px;gap:28px;margin-top:28px;align-items:center;}
+    .hero-card{background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);
+      padding:28px;border-radius:var(--radius);}
+    .marquee{font-weight:700;color:var(--accent);font-size:14px;letter-spacing:0.6px;margin-bottom:12px;overflow:hidden}
+    .marquee p{display:inline-block;padding-left:100%;animation:marq 12s linear infinite}
+    @keyframes marq{0%{transform:translateX(0)}100%{transform:translateX(-100%)}}
+    h1{margin:0;font-size:28px}
+    .sub{color:var(--muted);margin-top:10px}
+    .btn{background:linear-gradient(90deg,var(--accent),#78d7ff);color:#05202a;padding:10px 14px;border-radius:10px;font-weight:700;text-decoration:none;}
+    .ghost{background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--muted);padding:10px 14px;border-radius:10px;text-decoration:none}
+    .photo{width:120px;height:120px;border-radius:14px;background:linear-gradient(180deg,#06202b,#043039);
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:var(--accent);font-size:36px;}
+    section{margin-top:28px}
+    footer{margin-top:36px;padding:18px;border-radius:12px;background:linear-gradient(180deg, rgba(255,255,255,0.01), transparent);
+      display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
+    @media (max-width:920px){.hero{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="logo">SG</div>
+        <div>
+          <div style="font-weight:800">Shubham Guleria</div>
+          <div style="color:#98a0b3;font-size:13px">IT Engineer — System Optimization & Network Security</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <a href="https://www.linkedin.com/in/shubhamguleria36" target="_blank">LinkedIn</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="hero">
+        <div class="hero-card">
+          <div class="marquee"><p>Tech Enthusiast • Problem Solver • Innovator • IT Engineer Who Builds Smarter Systems</p></div>
+          <h1>Hi, I’m <span style="color:var(--accent)">Shubham Guleria</span> 👋</h1>
+          <p class="sub">I build efficient, secure and reliable IT systems — focusing on performance, user impact and scalable solutions. I combine technical rigor with a practical, customer-driven approach.</p>
+          <div style="margin-top:16px;display:flex;gap:12px;flex-wrap:wrap">
+            <a class="btn" href="assets/Shubham_Guleria_Resume.pdf" download>Download Resume</a>
+            <a class="ghost" href="https://www.linkedin.com/in/shubhamguleria36" target="_blank">LinkedIn</a>
+          </div>
+        </div>
+
+        <aside class="profile">
+          <div class="photo">SG</div>
+          <div style="text-align:center">
+            <div style="font-weight:700">Shubham Guleria</div>
+            <small style="color:#98a0b3">IT Engineer • New Delhi</small>
+          </div>
+          <div style="margin-top:10px;display:flex;justify-content:center;gap:8px">
+            <a class="ghost" href="mailto:guleria.shubham346@gmail.com">Email</a>
+            <a class="ghost" href="https://www.linkedin.com/in/shubhamguleria36" target="_blank">LinkedIn</a>
+          </div>
+        </aside>
+      </div>
+
+      <!-- About -->
+      <section id="about">
+        <h3>About Me</h3>
+        <p>I’m a results-driven IT Engineer with hands-on experience in software installation, system performance tuning, and customer-centric technical support. Having worked with Hitachi Systems and Allsoft Solutions, I focus on reliability, security, and real user impact. I enjoy mentoring, process optimization, and building solutions that are simple to use and robust in production.</p>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact">
+        <h3>Contact</h3>
+        <p>📧 <a href="mailto:guleria.shubham346@gmail.com" style="color:#1fb6ff">guleria.shubham346@gmail.com</a></p>
+        <p>🔗 <a href="https://www.linkedin.com/in/shubhamguleria36" target="_blank" style="color:#1fb6ff">www.linkedin.com/in/shubhamguleria36</a></p>
+      </section>
+    </main>
+
+    <footer>
+      <div>© 2025 <strong>Shubham Guleria</strong> — IT Engineer</div>
+      <div style="display:flex;gap:10px">
+        <a class="ghost" href="https://www.linkedin.com/in/shubhamguleria36" target="_blank">LinkedIn</a>
+        <a class="ghost" href="mailto:guleria.shubham346@gmail.com">Email</a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
